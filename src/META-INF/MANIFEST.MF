@@ -1,0 +1,18 @@
+Name: SPSSINC RANPRED
+Dialog-Specs: SPSSINC_RANPRED.spd
+Command-Specs: SPSSINC_RANPRED.xml
+Code-Files: SPSSINC_RANPRED.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Compute predicted values for new data using forests from SPSS
+ INC RANFOR
+Description: This procedure uses a forest produced by the SPSSINC RANF
+ OR extension command to compute predicted values for new data.  It is
+  a complete rewrite of the older extension command and no longer requ
+ ires the Python plugin.
+Author: JKP, IBM SPSS
+Version: 1.1.4
+Product-Version: 18
+Categories: spss randomforest r
+Plugins: R
+R-Packages: randomForest
+Translation-Catalogues: lang
