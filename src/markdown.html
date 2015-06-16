@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>SPSSINC RANPRED Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>SPSSINC RANPRED Extension Command</h1>
+
+<p>Calculate predictions from a random forest object in memory or from a
+saved R workspace.
+&#39;Random Forest&#39; is a trademark of Breiman and Cutler.</p>
+<div class="syntax">
+<p>SPSSINC RANPRED
+FOREST=&ldquo;<em>filespec</em>&rdquo; 
+PREDTYPE=RESPONSE<sup>&#42;&#42;</sup> or PROBABILITIES or VOTES CHECKMISSING=NO<sup>&#42;&#42;</sup> or YES<br/>
+ID=<em>varname</em>  </p>
+
+<p>/SAVE PREDVALUES=<em>datasetname</em>  </p>
+
+<p>/PRINT PREDICTIONS  </p>
+
+<p><sup>&#42;</sup> Required
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>SPSSINC RANPRED /HELP.  prints this information and does nothing else.</p>
+
+<pre class="example"><code>SPSSINC RANPRED.
+</code></pre>
+
+<p>Split files and weight are not honored by this command.</p>
+
+<p><strong>FOREST</strong> can be specified to name an R workspace saved by
+SPSSINC RANFOR containing the estimation information needed for prediction.
+By default, the workspace is expected to already be loaded.  This will be
+the case if RETAINFOREST was specified in that command.</p>
+
+<p>Categorical  variables in the prediction dataset, as determined by the estimation dataset,<br/>
+are automatically converted to factors using the values found in the estimation dataset.<br/>
+Category values for the prediction dataset must all exist in the estimation dataset.</p>
+
+<p><strong>CHECKMISSING</strong>.  Missing predictor values are not permitted when predicting.  Any
+missing values will cause the prediction process to fail for the
+entire dataset.  Use CHECKMISSING=YES to check for and remove any
+cases with missing values from the prediction dataset.  An ID variable is
+required if CHECKMISSING=YES.</p>
+
+<p><strong>ID</strong> can specify the name of a variable in the input dataset
+to be written to the prediction dataset as an id variable
+and used if predictions are displayed.</p>
+
+<p><strong>PREDTYPE</strong> specifies the type of prediction.  The choices are</p>
+
+<ul>
+<li>RESPONSE: the predicted response is computed.</li>
+<li>PROBABILITIES: the response probability is computed for each category</li>
+<li>VOTES: the number of votes is computed for each category.</li>
+</ul>
+
+<p>Probabilities and votes can only be specified for classification trees.</p>
+
+<p>SAVE</p>
+
+<hr/>
+
+<p><strong>PREDVALUES</strong> can be specified to name a dataset to hold the predicted values.
+The name must not already be in use.</p>
+
+<h2>PRINT</h2>
+
+<p><strong>PREDICTIONS</strong> produces a pivot table listing the predictions.</p>
+
+<p>Either or both of PREDVALUES or PRINT PREDICTIONS must be specified.</p>
+
+<p>This extension command requires the R programmability plug-in and 
+the R randomForest package.</p>
+
+</body>
+
+</html>
+
