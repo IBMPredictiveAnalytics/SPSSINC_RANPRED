@@ -1,0 +1,132 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_RANPRED.R:73
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s パッケージが必要ですが、読み込むことができませんでした。"
+
+#: SPSSINC_RANPRED.R:78
+msgid "The programfile keyword is no longer supported"
+msgstr ""
+"programfile キーワードはサポートされなくなりました"
+
+#: SPSSINC_RANPRED.R:81
+msgid "Either or both of the predicted values dataset and printpredictions must be specified"
+msgstr ""
+"予測値データセットと printprediction のいずれか一方または両方を指定する必要があります"
+
+#: SPSSINC_RANPRED.R:87
+msgid "The predicted values output dataset name is already in use"
+msgstr ""
+"その予測値出力データセット名は既に使用されています"
+
+#: SPSSINC_RANPRED.R:91
+msgid "An ID variable must be specified if the missing data check was requested."
+msgstr ""
+"欠損データの検査が要求された場合、ID 変数を指定する必要があります。"
+
+#: SPSSINC_RANPRED.R:98
+msgid "The specified workspace file could not be opened: %s"
+msgstr ""
+"指定されたワークスペース ファイルを開けませんでした: %s"
+
+#: SPSSINC_RANPRED.R:103
+msgid "--In memory--"
+msgstr ""
+"--メモリ内--"
+
+#: SPSSINC_RANPRED.R:107
+msgid "The R workspace does not contain the expected random forest object"
+msgstr ""
+"期待されたランダム フォレスト オブジェクトが R ワークスペースに含まれていません"
+
+#: SPSSINC_RANPRED.R:111
+msgid "New Prediction Dataset"
+msgstr ""
+"新規予測データセット"
+
+#: SPSSINC_RANPRED.R:113
+msgid "Random Forest Used for Prediction"
+msgstr ""
+"予測に使用されるランダム フォレスト"
+
+#: SPSSINC_RANPRED.R:114
+msgid "Random Forest computed by R randomForest package"
+msgstr ""
+"R randomForest パッケージによって計算されたランダム フォレスト"
+
+#: SPSSINC_RANPRED.R:117
+msgid "Statistics"
+msgstr ""
+"統計量"
+
+#: SPSSINC_RANPRED.R:137
+msgid "One or more of the required variables was not found in the active dataset.\nRequired variables:\n%s"
+msgstr ""
+"アクティブ データセット内で 1 つ以上の必須変数が見つかりませんでした。\n必須変数:\n%s"
+
+#: SPSSINC_RANPRED.R:141
+msgid "The id variable specified duplicates the name of a model variable: %s"
+msgstr ""
+"指定された ID 変数がモデル変数の名前と重複しています: %s"
+
+#: SPSSINC_RANPRED.R:149
+msgid "Predictions cannot be made from an unsupervised forest"
+msgstr ""
+"非監視フォレストからは予測を作成できません"
+
+#: SPSSINC_RANPRED.R:167
+msgid "Case Number (Not Counting Filtered Cases)"
+msgstr ""
+"ケース数 (フィルタリングされたケースはカウントしません)"
+
+#: SPSSINC_RANPRED.R:168
+msgid "Case Number"
+msgstr ""
+"ケース番号"
+
+#: SPSSINC_RANPRED.R:171
+msgid "pred"
+msgstr ""
+"予測値"
+
+#: SPSSINC_RANPRED.R:182
+msgid "Probability"
+msgstr ""
+"確率"
+
+#: SPSSINC_RANPRED.R:187
+msgid "Votes"
+msgstr ""
+"票決"
+
+#: SPSSINC_RANPRED.R:206
+msgid "Failed to create predicted values dataset: %s"
+msgstr ""
+"予測値データセットを作成できませんでした: %s"
+
+#: SPSSINC_RANPRED.R:214
+#: SPSSINC_RANPRED.R:217
+msgid "Predicted Values or Probabilities"
+msgstr ""
+"予測値または確率"
+
+
