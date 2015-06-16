@@ -1,0 +1,132 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_RANPRED.R:73
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: SPSSINC_RANPRED.R:78
+msgid "The programfile keyword is no longer supported"
+msgstr ""
+"programfile 키워드는 더 이상 지원되지 않습니다."
+
+#: SPSSINC_RANPRED.R:81
+msgid "Either or both of the predicted values dataset and printpredictions must be specified"
+msgstr ""
+"예측값 데이터 세트와 printpredictions 중 하나 또는 둘 모두를 지정해야 합니다."
+
+#: SPSSINC_RANPRED.R:87
+msgid "The predicted values output dataset name is already in use"
+msgstr ""
+"예측값 출력 데이터 세트 이름은 이미 사용 중입니다."
+
+#: SPSSINC_RANPRED.R:91
+msgid "An ID variable must be specified if the missing data check was requested."
+msgstr ""
+"결측 데이터 검사가 요청된 경우 ID 변수를 지정해야 합니다."
+
+#: SPSSINC_RANPRED.R:98
+msgid "The specified workspace file could not be opened: %s"
+msgstr ""
+"지정된 작업공간 파일을 열 수 없습니다. %s"
+
+#: SPSSINC_RANPRED.R:103
+msgid "--In memory--"
+msgstr ""
+"--메모리에 있음--"
+
+#: SPSSINC_RANPRED.R:107
+msgid "The R workspace does not contain the expected random forest object"
+msgstr ""
+"R 작업공간에는 기대되는 랜덤 포리스트 개체가 포함되어 있지 않습니다."
+
+#: SPSSINC_RANPRED.R:111
+msgid "New Prediction Dataset"
+msgstr ""
+"새 예측 데이터 세트"
+
+#: SPSSINC_RANPRED.R:113
+msgid "Random Forest Used for Prediction"
+msgstr ""
+"예측에 사용된 랜덤 포리스트"
+
+#: SPSSINC_RANPRED.R:114
+msgid "Random Forest computed by R randomForest package"
+msgstr ""
+"R randomForest 패키지에 의해 계산된 랜덤 포리스트"
+
+#: SPSSINC_RANPRED.R:117
+msgid "Statistics"
+msgstr ""
+"통계량2"
+
+#: SPSSINC_RANPRED.R:137
+msgid "One or more of the required variables was not found in the active dataset.\nRequired variables:\n%s"
+msgstr ""
+"필요한 변수 중 하나 이상을 활성 데이터 세트에서 찾을 수 없습니다.\n필요한 변수:\n%s"
+
+#: SPSSINC_RANPRED.R:141
+msgid "The id variable specified duplicates the name of a model variable: %s"
+msgstr ""
+"지정된 ID 변수가 모형 변수의 이름과 중복됩니다. %s"
+
+#: SPSSINC_RANPRED.R:149
+msgid "Predictions cannot be made from an unsupervised forest"
+msgstr ""
+"비지도 포리스트에서 예측을 작성할 수 없습니다."
+
+#: SPSSINC_RANPRED.R:167
+msgid "Case Number (Not Counting Filtered Cases)"
+msgstr ""
+"케이스 번호(필터된 케이스 계산 안함)"
+
+#: SPSSINC_RANPRED.R:168
+msgid "Case Number"
+msgstr ""
+"케이스 번호"
+
+#: SPSSINC_RANPRED.R:171
+msgid "pred"
+msgstr ""
+"pred"
+
+#: SPSSINC_RANPRED.R:182
+msgid "Probability"
+msgstr ""
+"확률"
+
+#: SPSSINC_RANPRED.R:187
+msgid "Votes"
+msgstr ""
+"투표"
+
+#: SPSSINC_RANPRED.R:206
+msgid "Failed to create predicted values dataset: %s"
+msgstr ""
+"예측값 데이터 세트를 작성하지 못했습니다. %s"
+
+#: SPSSINC_RANPRED.R:214
+#: SPSSINC_RANPRED.R:217
+msgid "Predicted Values or Probabilities"
+msgstr ""
+"예측값 또는 확률"
+
+
