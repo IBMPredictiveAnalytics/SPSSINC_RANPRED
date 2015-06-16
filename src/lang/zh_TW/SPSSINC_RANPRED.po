@@ -1,0 +1,132 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_RANPRED.R:73
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 套件是必要套件，但無法載入。"
+
+#: SPSSINC_RANPRED.R:78
+msgid "The programfile keyword is no longer supported"
+msgstr ""
+"不再支援 programfile 關鍵字"
+
+#: SPSSINC_RANPRED.R:81
+msgid "Either or both of the predicted values dataset and printpredictions must be specified"
+msgstr ""
+"必須指定預測值資料集及（或）列印預測"
+
+#: SPSSINC_RANPRED.R:87
+msgid "The predicted values output dataset name is already in use"
+msgstr ""
+"預測值輸出資料集名稱已在使用中"
+
+#: SPSSINC_RANPRED.R:91
+msgid "An ID variable must be specified if the missing data check was requested."
+msgstr ""
+"如果要求檢查遺漏資料，則必須指定 ID 變數。"
+
+#: SPSSINC_RANPRED.R:98
+msgid "The specified workspace file could not be opened: %s"
+msgstr ""
+"無法開啟指定的工作區檔案：%s"
+
+#: SPSSINC_RANPRED.R:103
+msgid "--In memory--"
+msgstr ""
+"--在記憶體中--"
+
+#: SPSSINC_RANPRED.R:107
+msgid "The R workspace does not contain the expected random forest object"
+msgstr ""
+"R 工作區未包含預期的隨機樹系物件"
+
+#: SPSSINC_RANPRED.R:111
+msgid "New Prediction Dataset"
+msgstr ""
+"新的預測資料集"
+
+#: SPSSINC_RANPRED.R:113
+msgid "Random Forest Used for Prediction"
+msgstr ""
+"用於預測的隨機樹系"
+
+#: SPSSINC_RANPRED.R:114
+msgid "Random Forest computed by R randomForest package"
+msgstr ""
+"由 R randomForest 套件計算的隨機樹系"
+
+#: SPSSINC_RANPRED.R:117
+msgid "Statistics"
+msgstr ""
+"統計資料"
+
+#: SPSSINC_RANPRED.R:137
+msgid "One or more of the required variables was not found in the active dataset.\nRequired variables:\n%s"
+msgstr ""
+"在作用中資料集中，找不到一或多個必要變數。\n必要變數為：\n%s"
+
+#: SPSSINC_RANPRED.R:141
+msgid "The id variable specified duplicates the name of a model variable: %s"
+msgstr ""
+"指定的 ID 變數會複製模型變數的名稱：%s"
+
+#: SPSSINC_RANPRED.R:149
+msgid "Predictions cannot be made from an unsupervised forest"
+msgstr ""
+"無法從非監督式樹系執行預測"
+
+#: SPSSINC_RANPRED.R:167
+msgid "Case Number (Not Counting Filtered Cases)"
+msgstr ""
+"觀察值數目（計數中不包含已過濾的觀察值）"
+
+#: SPSSINC_RANPRED.R:168
+msgid "Case Number"
+msgstr ""
+"觀察值數目"
+
+#: SPSSINC_RANPRED.R:171
+msgid "pred"
+msgstr ""
+"pred"
+
+#: SPSSINC_RANPRED.R:182
+msgid "Probability"
+msgstr ""
+"機率"
+
+#: SPSSINC_RANPRED.R:187
+msgid "Votes"
+msgstr ""
+"表決"
+
+#: SPSSINC_RANPRED.R:206
+msgid "Failed to create predicted values dataset: %s"
+msgstr ""
+"無法建立預測值資料集：%s"
+
+#: SPSSINC_RANPRED.R:214
+#: SPSSINC_RANPRED.R:217
+msgid "Predicted Values or Probabilities"
+msgstr ""
+"預測值或機率"
+
+
