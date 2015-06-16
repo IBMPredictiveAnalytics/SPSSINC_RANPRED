@@ -1,0 +1,132 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SPSSINC_RANPRED.R:73
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Pakiet R %s jest wymagany, ale nie można było go wczytać."
+
+#: SPSSINC_RANPRED.R:78
+msgid "The programfile keyword is no longer supported"
+msgstr ""
+"Słowo kluczowe programfile nie jest już obsługiwane."
+
+#: SPSSINC_RANPRED.R:81
+msgid "Either or both of the predicted values dataset and printpredictions must be specified"
+msgstr ""
+"Należy określić co najmniej jeden z przewidywanych zbiorów danych wartości i predykcji wydruku"
+
+#: SPSSINC_RANPRED.R:87
+msgid "The predicted values output dataset name is already in use"
+msgstr ""
+"Nazwa zbioru danych wyjściowych wartości przewidywanych jest już używana"
+
+#: SPSSINC_RANPRED.R:91
+msgid "An ID variable must be specified if the missing data check was requested."
+msgstr ""
+"Zmienną ID należy określić, jeśli zażądano kontroli braków danych."
+
+#: SPSSINC_RANPRED.R:98
+msgid "The specified workspace file could not be opened: %s"
+msgstr ""
+"Nie można otworzyć określonego pliku obszaru roboczego: %s"
+
+#: SPSSINC_RANPRED.R:103
+msgid "--In memory--"
+msgstr ""
+"--W pamięci--"
+
+#: SPSSINC_RANPRED.R:107
+msgid "The R workspace does not contain the expected random forest object"
+msgstr ""
+"Obszar roboczy R nie zawiera oczekiwanego losowego obiektu lasu"
+
+#: SPSSINC_RANPRED.R:111
+msgid "New Prediction Dataset"
+msgstr ""
+"Nowy zbiór danych predykcji"
+
+#: SPSSINC_RANPRED.R:113
+msgid "Random Forest Used for Prediction"
+msgstr ""
+"Losowy las użyty w predykcji"
+
+#: SPSSINC_RANPRED.R:114
+msgid "Random Forest computed by R randomForest package"
+msgstr ""
+"Losowy las obliczony za pomocą pakietu R randomForest"
+
+#: SPSSINC_RANPRED.R:117
+msgid "Statistics"
+msgstr ""
+"Statystyki"
+
+#: SPSSINC_RANPRED.R:137
+msgid "One or more of the required variables was not found in the active dataset.\nRequired variables:\n%s"
+msgstr ""
+"W aktywnym zbiorze danych nie znaleziono co najmniej jednej wymaganej zmiennej.\nWymagane zmienne:\n%s"
+
+#: SPSSINC_RANPRED.R:141
+msgid "The id variable specified duplicates the name of a model variable: %s"
+msgstr ""
+"Określona zmienna ID powoduje powielenie nazwy zmiennej modelu: %s"
+
+#: SPSSINC_RANPRED.R:149
+msgid "Predictions cannot be made from an unsupervised forest"
+msgstr ""
+"Predykcji nie można opracować na podstawie nienadzorowanego lasu"
+
+#: SPSSINC_RANPRED.R:167
+msgid "Case Number (Not Counting Filtered Cases)"
+msgstr ""
+"Liczba obserwacji (bez obserwacji odfiltrowanych)"
+
+#: SPSSINC_RANPRED.R:168
+msgid "Case Number"
+msgstr ""
+"Numer obserwacji"
+
+#: SPSSINC_RANPRED.R:171
+msgid "pred"
+msgstr ""
+"pred"
+
+#: SPSSINC_RANPRED.R:182
+msgid "Probability"
+msgstr ""
+"Prawdopodobieństwo"
+
+#: SPSSINC_RANPRED.R:187
+msgid "Votes"
+msgstr ""
+"Głosy"
+
+#: SPSSINC_RANPRED.R:206
+msgid "Failed to create predicted values dataset: %s"
+msgstr ""
+"Niepowodzenie utworzenia przewidywanych zbiorów danych wartości: %s"
+
+#: SPSSINC_RANPRED.R:214
+#: SPSSINC_RANPRED.R:217
+msgid "Predicted Values or Probabilities"
+msgstr ""
+"Wartości przewidywane lub prawdopodobieństwa"
+
+
