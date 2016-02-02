@@ -1,11 +1,11 @@
 # SPSSINC RANPRED
-## Compute predicted values for new data using forests from SPSS
- This procedure uses a forest produced by the SPSSINC RANF  OR extension command to compute predicted values for new data.  It is   a complete rewrite of the older extension command and no longer requ  ires the Python plugin.
+## Compute predicted values for new data using forests from SPSSINC RANFOR
+ This procedure uses a forest produced by the SPSSINC RANFOR extension command to compute predicted values for new data.  It is   a complete rewrite of the older extension command and no longer requires the Python plug-in.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
