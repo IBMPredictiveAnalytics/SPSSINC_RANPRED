@@ -10,7 +10,7 @@ Description: This procedure uses a forest produced by the SPSSINC RANF
   a complete rewrite of the older extension command and no longer requ
  ires the Python plugin.
 Author: JKP, IBM SPSS
-Version: 1.1.4
+Version: 1.1.5
 Product-Version: 18
 Categories: spss randomforest r
 Plugins: R
