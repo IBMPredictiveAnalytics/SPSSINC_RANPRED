@@ -1,4 +1,5 @@
 Name: SPSSINC RANPRED
+Display-Name: Random Forest Predictor
 Dialog-Specs: SPSSINC_RANPRED.spd
 Command-Specs: SPSSINC_RANPRED.xml
 Code-Files: SPSSINC_RANPRED.R
@@ -10,7 +11,7 @@ Description: This procedure uses a forest produced by the SPSSINC RANF
   a complete rewrite of the older extension command and no longer requ
  ires the Python plugin.
 Author: JKP, IBM SPSS
-Version: 1.1.5
+Version: 1.1.4
 Product-Version: 18
 Categories: spss randomforest r
 Plugins: R
