@@ -1,11 +1,12 @@
 # module to run an R program as an Extension command
 
 # author__ = "SPSS, JKP"
-# version__ = "1.1.0"
+# version__ = "1.2.0"
 
 # History
 # 30-Sep-2008 Original version
 # 12-Apr-2013 Rewrite to eliminate Python dependency
+# 04-sep-2026 fix scope clash with predict and add statistics
 
 
 helptext="SPSSINC RANPRED
@@ -155,7 +156,8 @@ ranpred = function(workspace=NULL,
     # for classification trees, one column is returned for each class
     # wrapping in data frame generates case id
     # any missing data in the input will case the prediction call to fail
-    pred = data.frame(predict(res, newdata=preddta, type=predtype)) # will fail if type inconsistent with tree
+    #pred = data.frame(predict(res, newdata=preddta, type=predtype)) # will fail if type inconsistent with tree
+    pred = data.frame(randomForest:::predict.randomForest(res, newdata=preddta, type=predtype)) # will fail if type inconsistent with tree
     npredcols = length(pred)
     newdict = list()
     printlbls = list()

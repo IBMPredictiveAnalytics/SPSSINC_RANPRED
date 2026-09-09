@@ -3,7 +3,7 @@ Display-Name: Random Forest Predictor
 Dialog-Specs: SPSSINC_RANPRED.spd
 Command-Specs: SPSSINC_RANPRED.xml
 Code-Files: SPSSINC_RANPRED.R
-Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Misc-Files: extsyntax.css,IBMdialogicon.png,markdown.html
 Summary: Compute predicted values for new data using forests from SPSS
  INC RANFOR
 Description: This procedure uses a forest produced by the SPSSINC RANF
@@ -11,7 +11,7 @@ Description: This procedure uses a forest produced by the SPSSINC RANF
   a complete rewrite of the older extension command and no longer requ
  ires the Python plugin.
 Author: JKP, IBM SPSS
-Version: 1.1.4
+Version: 1.1.5
 Product-Version: 18
 Categories: spss randomforest r
 Plugins: R
